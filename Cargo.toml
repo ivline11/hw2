@@ -1,0 +1,11 @@
+[package]
+name = "hw2"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "mac"
+
+[dependencies]
+nix  = { version = "0.28.0", features = ["user", "fs"] }
